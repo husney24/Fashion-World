@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+.header {
+    background-color: #e5c7c789;
+    padding: 10px 20px;
+  }
+  
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+.menu li {
+    margin-left: 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .menu li a:hover{
+    color: #ff3366;
+  }
+
+  .cart-icon {
+    color: #333;  
+    font-size: 24px; 
+    margin-left: 20px;
+  }
+  
+  .Navbar .toggle-icon{
+    display: none;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin:1.7em auto;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color:#ffffff00 ;
+    color: #ff3366;
+    border: 2px solid #ff3366;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+  }
+  .btn:hover {
+    background-color: #ff3366;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+  }
+
+  #btn01{
+    background-color:#ff3366;  
+  }
+  #btn01:hover{
+    background-color:#ffffff00 ;
+    color: #ff3366;
+    border: 2px solid #ff3366;
+    border-radius: 4px;
+  }
+
+  #btn02{
+    background-color:#ffffff00 ;
+    color: #ff3366;
+    border: 2px solid #ff3366;
+    border-radius: 4px;
+  }
+  #btn02:hover {
+    background-color: #ff3366;
+    color: #fff;
+  }
+
+.fashion-logo {
+    width: 30px;
+    height: 30px;
+    background: #ff3366;
+    border-radius: 10px;
+  }
+
+  #footer{
+    background-color: #e5c7c789;
+  }
+  #footer1{
+    background-color: #e5c7c7f5;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .Navbar .toggle-icon {
+      display: block;
+      justify-content: start;
+      font-size: 1.9rem;
+    }
+  .Navbar .logo{
+    display: flex;
+    justify-content: center;
+  }
+    .menu.active {
+      display: flex; /* Show menu when active class is applied */
+    }
+
+    .hero-content h1 {
+      font-size: 24px;
+    }
+    .hero-content p {
+      font-size: 16px;
+    }
+
+
+  }
+  
