@@ -11,7 +11,7 @@
 
 1. Clone this repository to your local machine using:
 
-   git clone https://github.com/husney24/Fashion-World-.git
+   git clone https://github.com/husney24/Fashion-World.git
 
    cd Fashion-World
 
